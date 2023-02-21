@@ -1,13 +1,16 @@
 import type { NextPage } from 'next';
-import Hero from '../components/Hero';
+import Hero from '@/components/Hero';
+import About from '@/components/sections/About';
+import Footer from '@/components/sections/Footer';
+import Projects from '@/components/sections/Projects';
 
 const Home: NextPage = () => {
    return (
       <div>
-         {/** Hero */}
          <Hero />
-         <p>Hello World</p>
-         {/* <p>James Muhoro, the best software engineerin in the world</p> */}
+         <About />
+         <Projects />
+         <Footer />
       </div>
    );
 };
